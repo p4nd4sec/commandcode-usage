@@ -1,0 +1,17 @@
+# Command Code session data (settings, taste, installed mods) — máy cục bộ
+.commandcode/
+
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Tạm
+*.log

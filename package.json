@@ -1,0 +1,21 @@
+{
+	"name": "commandcode-usage",
+	"version": "1.0.0",
+	"description": "Live usage readout under the Command Code prompt: current model, 5h/weekly limits, session age and context usage.",
+	"keywords": [
+		"cmd-mod",
+		"cmd-mod-renderer",
+		"commandcode",
+		"usage",
+		"status"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/p4nd4sec/commandcode-usage.git"
+	},
+	"commandcode": {
+		"mods": [
+			"./usage-status.ts"
+		]
+	}
+}
